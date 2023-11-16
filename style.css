@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: #3B4664;
+}
+.items{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:120px;
+}
+h1{
+    color:#ffffff;
+    margin-right:420px;
+}
+input{
+    background-color: #181F32;
+    border-radius: 12px;
+    width:34vw;
+    height:10vh;
+    margin-bottom:20px;
+    margin-top:10px;
+    color:#ffffff;
+    font-size:2rem;
+    text-align:right;
+}
+.cal-btns{
+    border-radius: 12px;
+    background-color: #252D44;
+    display:grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
+    padding:20px;
+    
+}
+.cal-btn{
+    border-radius: 12px;
+    background-color: #EAE3DB;
+    width:7vw;
+    height:7vh;
+    margin:5px;
+    font-size:1.2rem;
+    font-weight:900;
+    cursor: pointer;
+}
+.sel{
+    background-color: #647299;
+    color:#ffffff;
+}
+.red-col{
+    background: #D13F30;
+}
+.bw1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width:15vw;
+}
+.bw2{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    width:15vw;
+}
